@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: schematic-toolkit
+Version: 1.0.0
+Summary: Ultimate Minecraft Schematic (.litematic, .schem, .nbt) inspector, converter, palette swapper, and materials calculator.
+Author: DeepMind Antigravity Team
+License: MIT
+Keywords: minecraft,schematic,litematica,worldedit,nbt,sponge,materials,palette-swapper,cli
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0.0
+Requires-Dist: rich>=12.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Dynamic: license-file

@@ -1,0 +1,3 @@
+[console_scripts]
+schem = schematic_toolkit.cli:main
+schematic-toolkit = schematic_toolkit.cli:main
